@@ -11,7 +11,7 @@ class Game extends Model
 
     protected $table = 'matches';
 
-    protected $fillabe = [
+    protected $fillable = [
       'team_1',
       'team_2',
        'score',
